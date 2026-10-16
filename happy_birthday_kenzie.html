@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#120d22"><title>Happy Birthday, Kenzie ♡</title>
+<style>
+:root{--pink:#ffb9d8;--lilac:#c9b7ff}*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 15%,#503263,#241933 45%,#120d22 80%);color:#fff7fc;font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+.stars{position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(1px 1px at 10% 20%,#fff 99%,transparent),radial-gradient(2px 2px at 80% 30%,#ffcae3 99%,transparent),radial-gradient(1px 1px at 55% 70%,#fff 99%,transparent);background-size:240px 210px;opacity:.65;z-index:-1}
+.glow{position:fixed;width:330px;height:330px;filter:blur(100px);border-radius:50%;opacity:.2;pointer-events:none;background:#ff70b7;top:15%;left:-190px;z-index:-1}.glow.two{background:#8d71ff;top:auto;left:auto;right:-190px;bottom:0}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px 18px}.wrap{max-width:760px;margin:auto;width:100%}
+.label{font:600 10px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--pink)}
+h1{font-size:clamp(50px,12vw,100px);font-weight:400;line-height:.92;letter-spacing:-3px;margin:22px 0}h1 span{display:block;color:var(--pink);font-style:italic;text-shadow:0 0 35px #ffb9d844}
+.sub,.copy{font:14px/1.9 Arial,sans-serif;color:#e5d8f1;max-width:560px;margin:0 auto 25px}.ornament{font-size:20px;color:var(--pink);letter-spacing:12px;margin:22px 0}
+.button{border:1px solid #ffd5e7aa;border-radius:50px;padding:15px 24px;background:linear-gradient(120deg,#ffe2ee,#d4c3ff);color:#28152f;font:bold 11px Arial,sans-serif;letter-spacing:1.6px;text-transform:uppercase;cursor:pointer;box-shadow:0 8px 30px #e6a5df22;transition:.25s}.button:hover{transform:translateY(-3px)}
+.scroll{margin-top:23px;font:10px Arial,sans-serif;letter-spacing:2px;color:#b9a9c9}
+.content{padding:20px 16px 80px;max-width:850px;margin:auto}.panel{padding:clamp(25px,6vw,52px);margin:18px 0 24px;text-align:center;border:1px solid #ffffff1d;border-radius:28px;background:linear-gradient(145deg,#ffffff10,#ffffff04);box-shadow:0 25px 80px #0003;backdrop-filter:blur(12px)}
+h2{font-size:clamp(31px,7vw,49px);font-weight:400;line-height:1.1;margin:14px 0 18px}h2 em{color:var(--pink)}.copy{line-height:2;margin:0 auto}
+.cake-scene{position:relative;margin:28px auto 22px;width:min(100%,340px);height:270px;display:flex;align-items:flex-end;justify-content:center;filter:drop-shadow(0 20px 30px #0004)}
+.cake-stand{position:absolute;bottom:13px;width:280px;height:20px;border-radius:50%;background:linear-gradient(#f8dce9,#b989b4);box-shadow:0 8px 0 #76506e,0 13px 25px #0004}
+.cake-stand:before{content:"";position:absolute;width:75px;height:55px;left:calc(50% - 37px);bottom:12px;background:linear-gradient(90deg,#8d6592,#f4c8dd,#b283b9);clip-path:polygon(20% 0,80% 0,100% 100%,0 100%)}
+.cake-body{position:absolute;bottom:33px;width:230px;height:105px;border-radius:18px 18px 23px 23px;background:linear-gradient(90deg,#b45b88,#f7b4d2 24%,#ffe0e9 53%,#df8ab7);box-shadow:inset 0 -12px 0 #b76596}
+.cake-body:before{content:"";position:absolute;top:22px;left:0;right:0;height:8px;background:#fff0f4aa}
+.frosting{position:absolute;bottom:126px;width:242px;height:44px;border-radius:50% 50% 16px 16px;background:linear-gradient(90deg,#f9c9e1,#fff1f4 55%,#f2afd3);z-index:2}
+.drip{position:absolute;top:24px;width:20px;height:30px;border-radius:0 0 14px 14px;background:#f9d7e9}.d1{left:25px;height:28px}.d2{left:72px;height:18px}.d3{right:56px;height:30px}.d4{right:18px;height:20px}
+.berries{position:absolute;bottom:158px;z-index:4;display:flex;gap:14px;align-items:center}.berry{width:21px;height:24px;border-radius:55% 55% 48% 48%;background:linear-gradient(130deg,#ff719f,#bb285e);position:relative;transform:rotate(-12deg);box-shadow:inset -3px -3px 0 #8b234b55}
+.berry:before{content:"";position:absolute;top:-5px;left:7px;width:9px;height:8px;background:#6da66c;clip-path:polygon(50% 0,65% 45%,100% 25%,76% 70%,50% 50%,20% 85%,25% 45%,0 25%)}
+.candle{position:absolute;bottom:169px;width:12px;height:53px;border-radius:4px;background:repeating-linear-gradient(135deg,#fff0f5 0 6px,#d49bea 6px 12px);z-index:5}.c1{left:calc(50% - 31px);height:43px}.c2{left:calc(50% - 6px);height:57px}.c3{left:calc(50% + 19px);height:46px}
+.flame{position:absolute;top:-23px;left:1px;width:10px;height:19px;border-radius:60% 40% 55% 45%;background:radial-gradient(circle at 50% 65%,#fff8c9 0 25%,#ffc65d 45%,#ff7b8b 75%);animation:flicker .7s infinite alternate;box-shadow:0 0 18px #ffcb73aa}
+.cake-heart{position:absolute;bottom:57px;z-index:6;color:#fff5fb;font-size:24px;text-shadow:0 0 8px white}.cake-caption{font:10px Arial,sans-serif;letter-spacing:3px;color:#d9c6e6;text-transform:uppercase;margin-top:6px}
+.message{display:none;border-top:1px solid #ffffff24;margin:27px auto 0;padding-top:25px;max-width:550px;animation:fadeup .7s ease both}.message.show{display:block}.message p{font:14px/2 Arial,sans-serif;color:#f2e7f4}.signature{font-size:24px;font-style:italic;color:var(--pink);margin-top:20px}
+.wishes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:28px 0}.wish{padding:23px 8px;border-radius:18px;border:1px solid #ffffff1a;background:#ffffff08;font:10px/1.8 Arial,sans-serif;letter-spacing:1px;color:#eadcf5}.wish strong{display:block;font-size:28px;font-weight:400;margin-bottom:8px}
+footer{text-align:center;font:10px Arial,sans-serif;letter-spacing:2px;color:#ad9abf;padding:12px 0 30px}.confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:5}.piece{position:absolute;top:-25px;animation:fall 4s linear forwards}
+@keyframes fadeup{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@keyframes flicker{from{transform:rotate(-6deg) scale(.94)}to{transform:rotate(7deg) scale(1.06)}}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.1}}
+@media(max-width:520px){h1{letter-spacing:-2px}.cake-scene{transform:scale(.92);margin-top:20px;margin-bottom:15px}.wishes{gap:7px}.wish{padding:17px 4px;font-size:9px}.panel{border-radius:22px}}
+</style></head>
+<body>
+<div class="stars"></div><div class="glow"></div><div class="glow two"></div><div class="confetti" id="confetti"></div>
+<section class="hero" id="top"><div class="wrap">
+<div class="label">✦ a little celebration ✦</div><div class="ornament">♡　✧　♡</div>
+<h1>Happy Birthday <span>Kenzie</span></h1>
+<p class="sub">Tonight, the stars shine a little brighter — because today is all about you. 💗</p>
+<button class="button" onclick="startSurprise()">Open your surprise ✧</button><div class="scroll">↓ &nbsp; YOUR SPECIAL PAGE &nbsp; ↓</div>
+</div></section>
+<section class="content" id="surprise">
+<div class="panel"><div class="label">01 · your birthday cake</div><h2>A sweet day for<br><em>someone special.</em></h2><p class="copy">Make a wish, Kenzie. This little cake is just for you. 🎂</p>
+<div class="cake-scene" aria-label="Ilustrasi kue ulang tahun dengan tiga lilin">
+<div class="cake-stand"></div><div class="cake-body"></div><div class="frosting"><i class="drip d1"></i><i class="drip d2"></i><i class="drip d3"></i><i class="drip d4"></i></div>
+<div class="berries"><i class="berry"></i><i class="berry"></i><i class="berry"></i></div><div class="candle c1"><i class="flame"></i></div><div class="candle c2"><i class="flame"></i></div><div class="candle c3"><i class="flame"></i></div><div class="cake-heart">♡</div></div>
+<div class="cake-caption">made of sweetness & wishes</div><button class="button" style="margin-top:25px" onclick="blowCandles(this)">Blow the candles ♡</button><p id="candleNote" class="copy" style="margin-top:15px;min-height:22px"></p>
+</div>
+<div class="panel"><div class="label">02 · a letter for you</div><h2>Dear, <em>Kenzie ♡</em></h2><p class="copy">Ada pesan kecil yang dibuat khusus untuk hari spesialmu.</p><button class="button" style="margin-top:24px" onclick="readLetter()">Open your letter ✉</button>
+<div class="message" id="message"><p>Selamat ulang tahun, Kenzie! 🎉💗</p><p>Sehat selalu ya ken maaf banget aku telat, aku terlalu sibuk meeting tapi aku berusaha semaksimal ku untuk bikin ini untukmu ken.</p><p>Walaupun kita baru beberapa bulan ketemu, kamu sudah menjadi sahabat terbaiku ken makasih ya udah datang ke hidupku Semoga aja tahun ini kamu jadi lebih bahagia. You deserve all the beautiful things life has to offer.</p><p>Semoga tahun ini menjadi salah satu bab paling indah dalam hidupmu. ✨</p><div class="signature">With love, just for you ♡</div></div></div>
+<div class="panel"><div class="label">03 · wishes for your new chapter</div><h2>May you always have...</h2><div class="wishes"><div class="wish"><strong>♡</strong>LOTS OF LOVE</div><div class="wish"><strong>✧</strong>ENDLESS JOY</div><div class="wish"><strong>☾</strong>BIG DREAMS</div></div><button class="button" onclick="party()">Celebrate Kenzie! 🎉</button></div>
+<footer>MADE WITH ♡ ESPECIALLY FOR KENZIE</footer></section>
+<script>
+function startSurprise(){document.getElementById('surprise').scrollIntoView({behavior:'smooth'});party()}
+function readLetter(){document.getElementById('message').classList.add('show');party();document.getElementById('message').scrollIntoView({behavior:'smooth',block:'center'})}
+function blowCandles(btn){document.querySelectorAll('.flame').forEach(f=>f.style.display='none');document.getElementById('candleNote').textContent='Wish made! Semoga harapanmu jadi nyata. ✨💗';btn.textContent='Wish sent ✨';party()}
+function party(){const box=document.getElementById('confetti'),icons=['✦','♡','✧','💗','✨','🎉'];for(let i=0;i<75;i++){const e=document.createElement('span');e.className='piece';e.textContent=icons[Math.floor(Math.random()*icons.length)];e.style.left=Math.random()*100+'%';e.style.animationDelay=Math.random()*1.2+'s';e.style.animationDuration=(2.5+Math.random()*2)+'s';e.style.fontSize=(12+Math.random()*16)+'px';box.appendChild(e);setTimeout(()=>e.remove(),5200)}}
+</script></body></html>
